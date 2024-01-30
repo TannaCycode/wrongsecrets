@@ -1,0 +1,5 @@
+
+<test>
+    <property name="password" value="diablo_1234"/>
+    <property name="Password">Test_1234567</property>
+</test>
