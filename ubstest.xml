@@ -1,5 +1,4 @@
-
-
-    <property name="password" value="diablo_3722"/>
-    <property name="Password">Test_0763941</property>
-
+<test>
+    <property name="password" value="diablo_1359"/>
+    <property name="Password">Test_7206351</property>
+</test>
