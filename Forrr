@@ -1,0 +1,11 @@
+
+         response.setHeader("X-XSS-Protection", "0");
+        int length = 1;
+        if (bar != null) {
+            length = bar.length();
+            response.getWriter().write(bar, 0, length);
+        }
+    } // end doPost
+
+     private static String doSomething(HttpServletRequest request, String param)
+            throws ServletException, IOException {
