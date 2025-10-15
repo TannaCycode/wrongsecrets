@@ -2,4 +2,4 @@
  SLACK_CLIENT_ID = '730191371696.1410179799078'
  SLACK_CLIENT_SECRET = 'f90dd63cdcb13662a6f4b008081c1524'
 
- ## Slack Signing Secret
+ ## Slack Signing Secret  
