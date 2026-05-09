@@ -55,7 +55,7 @@
         <asciidoctor.maven.plugin.version>2.2.2</asciidoctor.maven.plugin.version>
         <azure.keyvault.version>4.4.3</azure.keyvault.version>
         <azure.identity.version>1.5.3</azure.identity.version>
-        <azure.keyvault.spring.version>2.3.5</azure.keyvault.spring.version>
+        <azure.keyvault.spring.version>3.0.0-beta.1</azure.keyvault.spring.version>
         <spring.security.version>5.7.2</spring.security.version>
         <cyclonedx.core.version>7.1.5</cyclonedx.core.version>
         <KeePassJava2.version>2.1.4</KeePassJava2.version>
@@ -73,6 +73,7 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
+            <version>3.0.0</version>
         </dependency>
 
         <dependency>
@@ -83,6 +84,7 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
+            <version>3.0.0</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.security</groupId>
@@ -95,12 +97,15 @@
             <version>${spring.security.version}</version>
         </dependency>
         <dependency>
+        <version>3.0.0</version>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+        <version>4.0.0</version>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-vault-config</artifactId>
+            <version>4.0.0</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
